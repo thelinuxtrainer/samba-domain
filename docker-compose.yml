@@ -11,6 +11,10 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /data/docker/containers/samba/data/:/var/lib/samba
       - /data/docker/containers/samba/config/samba:/etc/samba/external
+      - /mnt/public:/mnt/public
+      - /mnt/documents:/mnt/documents
+      - /test:/mnt/test
+      - /storage:/mnt/storage
     environment:
       - DOMAIN=CORP.EXAMPLE.COM
       - DOMAIN_DC=dc=corp,dc=example,dc=com
