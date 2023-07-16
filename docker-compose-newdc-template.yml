@@ -5,7 +5,7 @@ services:
 # ----------- samba begin ----------- #
 
   samba:
-    image: nowsci/samba-domain
+    image: thelinuxtrainer/samba-domain
     container_name: samba
     volumes:
       - /etc/localtime:/etc/localtime:ro
