@@ -26,7 +26,7 @@ mkdir -p /data/docker/builds
 cd /data/docker/builds
 git clone https://github.com/Fmstrat/samba-domain.git
 cd samba-domain
-docker build -t samba-domain .
+docker build -t thelinuxtrainer/samba-domain .
 ```
 
 Or just use the HUB:
